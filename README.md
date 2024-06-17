@@ -18,7 +18,7 @@ This project is designed to scrape various websites, extract relevant informatio
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/web-scraping-project.git
+    https://github.com/shreedhar13/Website_Information_Scraping.git
     cd Website_Information_Scraping
     ```
 
@@ -89,6 +89,8 @@ CREATE TABLE web_page (
     Category VARCHAR(500)
 );
 ```
+![Screenshot (166)](https://github.com/shreedhar13/Website_Information_Scraping/assets/153434680/1ddd86c1-f499-435f-9fd9-e715ec3e876b)
+
 
 
 
