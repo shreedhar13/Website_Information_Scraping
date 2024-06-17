@@ -18,7 +18,7 @@ This project is designed to scrape various websites, extract relevant informatio
 1. Clone the repository:
 
     ```sh
-    [git clone https://github.com/yourusername/web-scraping-project.git](https://github.com/shreedhar13/Website_Information_Scraping.git)
+    git clone https://github.com/yourusername/web-scraping-project.git
     cd Website_Information_Scraping
     ```
 
@@ -27,12 +27,6 @@ This project is designed to scrape various websites, extract relevant informatio
     ```sh
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. Install the required packages:
-
-    ```sh
-    pip install -r 1_requirements.txt
     ```
 
 ## Usage
@@ -76,6 +70,29 @@ web-scraping-project/
 ├── venv/                       # Virtual environment directory
 └── data/                       # Directory to store data files
 ```
+
+### step 6: Create DataBase Named "Website_Information" And Table Named "websites_info" In MySQL WorkBench 
+```sh
+create database website_information;
+
+use website_information;
+
+CREATE TABLE web_page (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    URL VARCHAR(500),
+    Social_Media_Links VARCHAR(500),
+    Tech_Stack VARCHAR(500),
+    Meta_Title VARCHAR(500),
+    Meta_Description VARCHAR(500),
+    Payment_Gateways VARCHAR(500),
+    Language VARCHAR(500),
+    Category VARCHAR(500)
+);
+```
+
+
+
+
 
 
 
