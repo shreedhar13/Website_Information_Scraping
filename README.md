@@ -12,17 +12,14 @@ This project is designed to scrape various websites, extract relevant informatio
     - [Step 3: Store Scraped Data](#step-3-store-scraped-data)
     - [Step 4: Clean Scraped Data](#step-4-clean-scraped-data)
     - [Step 5: Get Cleaned Data](#step-5-get-cleaned-data)
-3. [Project Structure](#project-structure)
-4. [Contributing](#contributing)
-5. [License](#license)
 
 ## Installation
 
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/web-scraping-project.git
-    cd web-scraping-project
+    [git clone https://github.com/yourusername/web-scraping-project.git](https://github.com/shreedhar13/Website_Information_Scraping.git)
+    cd Website_Information_Scraping
     ```
 
 2. Create a virtual environment and activate it:
@@ -46,12 +43,39 @@ Ensure all necessary libraries are installed by using the `1_requirements.txt` f
 
 ```sh
 pip install -r 1_requirements.txt
+```
 
+### Step 2: Scrape Website
+Run the 2_Scraping_Website.py script to scrape data from various websites. This script will extract information such as social media links, tech stack, meta title, meta description, payment gateways, language, and category.
 
-
+```sh
 python 2_Scraping_Website.py
+```
 
+### Step 3: Store Scraped Data
+The scraped data is stored in a file named 3_Scraped_Website_Info.csv.
 
-
-
+### Step 4: Clean Scraped Data
+Run the 4_Cleaning_Scraped_Data.py script to clean the scraped data.
+```sh
 python 4_Cleaning_Scraped_Data.py
+```
+
+### Step 5: Get Cleaned Data
+The final cleaned data is stored in a file named 5_Cleaned_Data.csv
+
+```sh
+web-scraping-project/
+│
+├── 1_requirements.txt          # List of required packages
+├── 2_Scraping_Website.py       # Script to scrape websites
+├── 3_Scraped_Website_Info.csv  # File to store scraped data
+├── 4_Cleaning_Scraped_Data.py  # Script to clean scraped data
+├── 5_Cleaned_Data.csv          # File to store cleaned data
+├── README.md                   # Project documentation
+├── venv/                       # Virtual environment directory
+└── data/                       # Directory to store data files
+```
+
+
+
