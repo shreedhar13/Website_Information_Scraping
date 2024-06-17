@@ -88,6 +88,8 @@ CREATE TABLE web_page (
     Language VARCHAR(500),
     Category VARCHAR(500)
 );
+
+select * from websites_info;
 ```
 ![Screenshot (166)](https://github.com/shreedhar13/Website_Information_Scraping/assets/153434680/1ddd86c1-f499-435f-9fd9-e715ec3e876b)
 
