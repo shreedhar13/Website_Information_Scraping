@@ -93,6 +93,8 @@ select * from websites_info;
 ```
 ![Screenshot (166)](https://github.com/shreedhar13/Website_Information_Scraping/assets/153434680/1ddd86c1-f499-435f-9fd9-e715ec3e876b)
 
+## YOU CAN DIRECTLY CONNECT TO THE DATABASES AND INSERT DATA DIRECTLY WITHOUT ENTERING IT IN TO .CSV FILE....BUT I FIND THIS METHOD IS EASY AND FRIENDLY
+
 
 
 
