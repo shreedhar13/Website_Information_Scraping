@@ -2,7 +2,7 @@
 
 # Web Scraping Project
 
-This project is designed to scrape various websites, extract relevant information, and store it in a structured format. The project includes multiple steps: setting up the environment, scraping the website, storing the scraped data, and cleaning the data.
+This project is designed to scrape various websites using python library such as beautifulsoup and request , extract relevant information, and store it in a structured format ex- RDBMS(MySQL) or CSV files. The project includes multiple steps: setting up the environment, scraping the website, storing the scraped data, and cleaning the data.
 
 ## Table of Contents
 1. [Installation](#installation)
